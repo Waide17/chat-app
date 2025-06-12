@@ -1,0 +1,17 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Una semplice app chat che simula alcune funzionalità base di WhatsApp, usando Fastify e SSE.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["chat", "fastify", "sse", "messaggi", "whatsapp-like"],
+  "author": "Waide17",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/static": "^7.2.2",
+    "@soluzioni-futura/sse-manager": "^2.1.1",
+    "fastify": "^4.27.2"
+  }
+}
