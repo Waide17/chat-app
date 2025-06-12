@@ -19,11 +19,11 @@ Questa è un'applicazione **clone di WhatsApp** sviluppata a scopo didattico e s
 - **Altre librerie o tool:** [Soluzioni Futura SSE Manager]
 
 ## 🚀 Funzionalità implementate
-
-- [ ] Interfaccia chat stile WhatsApp  
+  
 - [x] Inoltro e ricezione messaggi (mock o reale)  
 - [x] Supporto a più utenti  
 - [x] Scrittura in tempo reale  
+- [ ] Interfaccia chat stile WhatsApp
 - [ ] Salvataggio chat persistente  
 - [ ] Notifiche / indicatori di lettura
 
@@ -33,9 +33,11 @@ Questa è un'applicazione **clone di WhatsApp** sviluppata a scopo didattico e s
    ```bash
    git clone https://github.com/tuo-username/whatsapp-clone.git
 2. Installa le dipendenza:
+   ```bash
    cd whatsapp-clone
    npm install
 3. Avvia l'app:
+   ```bash
    node server.js
    
 ## 🤝 Contribuire
