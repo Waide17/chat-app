@@ -31,10 +31,10 @@ Questa è un'applicazione **clone di WhatsApp** sviluppata a scopo didattico e s
 
 1. Clona la repo:
    ```bash
-   git clone https://github.com/tuo-username/whatsapp-clone.git
+   git clone https://github.com/Waide17/chat-app.git
 2. Installa le dipendenza:
    ```bash
-   cd whatsapp-clone
+   cd chat-app
    npm install
 3. Avvia l'app:
    ```bash
