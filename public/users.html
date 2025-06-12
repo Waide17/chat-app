@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatApp - Utenti connessi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="users.css">
+  </head>
+  <body>
+    <div
+      id="login"
+      class="container d-flex flex-column justify-content-center align-items-center min-vh-100"
+    >
+      <div class="w-100" style="max-width: 400px">
+        <input
+          type="text"
+          placeholder="Inserisci il tuo nickname"
+          id="login-input"
+          class="form-control mb-3"
+        />
+        <button class="btn btn-primary w-100">Entra</button>
+      </div>
+    </div>
+    <div class="users-connected">
+      <h1>Utenti Connessi</h1>
+      <ul id="user-list">
+        <!-- Gli utenti connessi saranno visualizzati qui -->
+      </ul>
+    </div>
+    <script src="users.js"></script>
+  </body>
+</html>
